@@ -10,6 +10,7 @@ import { useShoppingCart } from "use-shopping-cart";
 
 export default function CartProduct({ product }) {
   const { setItemQuantity, removeItem } = useShoppingCart();
+
   return (
     <div className="flex justify-between space-x-4 hover:shadow-lg hover:border-opacity-50 border border-opacity-0 rounded-md p-4 bg-white">
       <Link
